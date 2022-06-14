@@ -1,0 +1,53 @@
+﻿@model InAndOutMain.Models.Item
+
+
+<form method="post" asp-action="Create">
+    <div class="border p-3">
+        <div class="form-group row">
+            <h2 class="text-black-50 pl-3">Add Item</h2>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group row">
+                    <div class="col-3">
+                        <label asp-for="ItemName"></label>
+                    </div>
+                    <div class="col-3">
+                        <label asp-for="Borrower"></label>
+                    </div>
+                    <div class="col-3">
+                        <label asp-for="Lender"></label>
+                    </div>
+                    <div class="col-3">
+                        <label asp-for="BorrowedDate"></label>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-3">
+                        <input class="form-control" asp-for="ItemName"/>
+                    </div>
+                    <div class="col-3">
+                        <input class="form-control" asp-for="Borrower"/>
+                    </div>
+                    <div class="col-3">
+                        <input class="form-control" asp-for="Lender"/>
+                    </div>
+                    <div class="col-3">
+                        <input class="form-control" asp-for="BorrowedDate"/>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-8 offset-2 row">
+                        <div class="col">
+                            <a class="btn btn-info w-75" asp-action="Index">Back</a>
+                        </div>
+                        <div class="col">
+                            <input type="submit" class="btn btn-success w-75" value="Create"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
