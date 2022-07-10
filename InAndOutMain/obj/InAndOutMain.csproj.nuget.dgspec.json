@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\Codes\\C# Codes\\InAndOutMain\\InAndOutMain\\InAndOutMain.csproj": {}
+    "D:\\Workspace\\Projects\\InAndOut\\InAndOutMain\\InAndOutMain.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\Codes\\C# Codes\\InAndOutMain\\InAndOutMain\\InAndOutMain.csproj": {
+    "D:\\Workspace\\Projects\\InAndOut\\InAndOutMain\\InAndOutMain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\Codes\\C# Codes\\InAndOutMain\\InAndOutMain\\InAndOutMain.csproj",
+        "projectUniqueName": "D:\\Workspace\\Projects\\InAndOut\\InAndOutMain\\InAndOutMain.csproj",
         "projectName": "InAndOutMain",
-        "projectPath": "D:\\Workspace\\Codes\\C# Codes\\InAndOutMain\\InAndOutMain\\InAndOutMain.csproj",
+        "projectPath": "D:\\Workspace\\Projects\\InAndOut\\InAndOutMain\\InAndOutMain.csproj",
         "packagesPath": "C:\\Users\\Shreyan\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\Codes\\C# Codes\\InAndOutMain\\InAndOutMain\\obj\\",
+        "outputPath": "D:\\Workspace\\Projects\\InAndOut\\InAndOutMain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shreyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
